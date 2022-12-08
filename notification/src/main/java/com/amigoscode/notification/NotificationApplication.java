@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication(
         scanBasePackages = {
                 "com.amigoscode.notification",
-                "com.amigoscode.amqp"
+                "com.amigoscode.amqp",
         }
 )
 public class NotificationApplication {
